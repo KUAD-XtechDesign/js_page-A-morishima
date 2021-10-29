@@ -8,6 +8,3 @@ setInterval(() => {
     $target.removeClass(CLASSNAME);
   }, TIMEOUT);
 }, TIMEOUT * 2);
-
-
-Resourcesß
