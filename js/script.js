@@ -1,10 +1,13 @@
-const CLASSNAME = "-visible";
-const TIMEOUT = 1500;
-const $target = $(".title");
-
-setInterval(() => {
-  $target.addClass(CLASSNAME);
-  setTimeout(() => {
-    $target.removeClass(CLASSNAME);
-  }, TIMEOUT);
-}, TIMEOUT * 2);
+var mySwiper = new Swiper(".swiper-container", {
+    direction: "vertical",
+    loop: true,
+    pagination: ".swiper-pagination",
+    grabCursor: true,
+    speed: 1000,
+    paginationClickable: true,
+    parallax: true,
+    autoplay: false,
+    effect: "slide",
+    mousewheelControl: 1
+  });
+  
