@@ -66,3 +66,24 @@ body {
   margin: 0;
 }
 
+.title span {
+    display: block;
+    transform: translate(0, 105%);
+    transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  }
+
+  .title span:nth-child(2) {
+    transition-delay: 0.06s;
+  }
+  .title span:nth-child(3) {
+    transition-delay: 0.12s;
+  }
+
+  .title span {
+    @for $i from 1 through 13 {
+      &:nth-child(#{$i + 1}) {
+        $delay: $i * 0.06 + s;
+        transition-delay: $delay;
+      }
+    }
+  }
