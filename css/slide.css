@@ -40,7 +40,7 @@
 	width: 100%;
 	animation-duration: 9s;	/*実行する時間。「s」は秒の事。*/
 	animation-iteration-count:infinite;		/*実行する回数。「infinite」は無限に繰り返す意味。*/
-	position: absolute;left:0px;top:0px;
+	position: absolute;left:0px;top: -20px;
 	animation-fill-mode: both;
 	animation-delay: 1s;
 }
