@@ -58,7 +58,7 @@
     color: transparent;
     outline: none;
     width:4px;/*ドットボタンのサイズ*/
-    height:4px;/*ドットボタンのサイズ*/
+    height:6px;/*ドットボタンのサイズ*/
     display:block;
     border-radius:50%;
     background:rgb(57, 120, 202);/*ドットボタンの色*/
