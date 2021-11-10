@@ -26,8 +26,8 @@
     top: 42%;
     cursor: pointer;/*マウスカーソルを指マークに*/
     outline: none;/*クリックをしたら出てくる枠線を消す*/
-    border-top: 2px solid #666;/*矢印の色*/
-    border-right: 2px solid #666;/*矢印の色*/
+    border-top: 2px solid rgb(101, 174, 187);/*矢印の色*/
+    border-right: 2px solid rgb(88, 149, 199);/*矢印の色*/
     height: 15px;
     width: 15px;
 }
@@ -57,13 +57,13 @@
 .slick-dots button {
     color: transparent;
     outline: none;
-    width:8px;/*ドットボタンのサイズ*/
-    height:8px;/*ドットボタンのサイズ*/
+    width:4px;/*ドットボタンのサイズ*/
+    height:4px;/*ドットボタンのサイズ*/
     display:block;
     border-radius:50%;
-    background:#ccc;/*ドットボタンの色*/
+    background:rgb(57, 120, 202);/*ドットボタンの色*/
 }
 
 .slick-dots .slick-active button{
-    background:#333;/*ドットボタンの現在地表示の色*/
+    background:rgb(52, 70, 151);/*ドットボタンの現在地表示の色*/
 }
